@@ -22,7 +22,7 @@ export default function Footer() {
               </span>
             </div>
             <p style={{ fontSize: '0.85rem', color: 'rgba(255,255,255,0.45)', lineHeight: 1.7, maxWidth: 220 }}>
-              La revista de Ciencias Naturales del Instituto Verbo Divino, Pilar.
+              La revista de Ciencias Exactas del Instituto Verbo Divino, Pilar.
             </p>
           </div>
 
@@ -60,7 +60,7 @@ export default function Footer() {
             <p style={{ fontSize: '0.85rem', color: 'rgba(255,255,255,0.45)', lineHeight: 1.8 }}>
               Instituto Verbo Divino<br />
               Pilar, Buenos Aires<br />
-              Área de Ciencias Naturales
+              Depto. de Exactas
             </p>
             <a href="https://www.institutoverbodivino.edu.ar" target="_blank" rel="noopener noreferrer"
               style={{ display: 'inline-block', marginTop: '0.75rem', fontSize: '0.8rem', color: 'var(--ivd-red)', textDecoration: 'none' }}>
@@ -74,7 +74,7 @@ export default function Footer() {
             © {new Date().getFullYear()} RevistaIVD · Instituto Verbo Divino
           </span>
           <span style={{ fontSize: '0.78rem', color: 'rgba(255,255,255,0.18)', fontFamily: 'var(--font-mono)' }}>
-            Cs. Naturales · Secundaria
+            Cs. Exactas · Secundaria
           </span>
         </div>
       </div>

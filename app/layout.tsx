@@ -4,8 +4,8 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'RevistaIVD · Ciencias Naturales',
-  description: 'La revista digital de Ciencias Naturales del Instituto Verbo Divino, Pilar. Química, Física, Ciencias de la Tierra y más.',
+  title: 'RevistaIVD · Ciencias Exactas',
+  description: 'La revista digital de Ciencias Exactas del Instituto Verbo Divino, Pilar. Química, Física, Ciencias de la Tierra y más.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

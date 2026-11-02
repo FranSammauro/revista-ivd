@@ -48,7 +48,7 @@ export default async function Home() {
             IVD
           </h1>
           <p style={{ fontSize: 'clamp(1rem, 2vw, 1.25rem)', color: 'rgba(255,255,255,0.6)', maxWidth: 560, lineHeight: 1.7, marginBottom: '3rem', opacity: 0, animation: 'fadeUp 0.7s ease 0.4s forwards' }}>
-            Ciencias Naturales para la secundaria: Química, Física, Ciencias de la Tierra y Biología — explicadas con rigor y curiosidad.
+            Ciencias Exactas para la secundaria: Matemática, Física, Química y Ciencias Naturales, exploradas con rigor científico, pensamiento lógico y curiosidad.
           </p>
           <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', opacity: 0, animation: 'fadeUp 0.7s ease 0.5s forwards' }}>
             <Link href="/articulos" className="btn-red" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '14px 28px', background: 'var(--ivd-red)', color: 'white', textDecoration: 'none', borderRadius: 8, fontWeight: 600, fontSize: '0.9rem', transition: 'background 0.2s' }}>
@@ -62,7 +62,7 @@ export default async function Home() {
             {[
               { n: String(all.length), label: 'Artículos' },
               { n: String(Object.keys(CATEGORIES).length), label: 'Disciplinas' },
-              { n: '2025', label: 'Edición' },
+              { n: '2026', label: 'Edición' },
             ].map(s => (
               <div key={s.label}>
                 <div style={{ fontFamily: 'var(--font-display)', fontSize: '2.5rem', fontWeight: 900, color: 'white' }}>{s.n}</div>
